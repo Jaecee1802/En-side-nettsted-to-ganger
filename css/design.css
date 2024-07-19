@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.twice-head{
+    background-color: #ADC6D9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.twice-logo{
+    width: auto;
+    height: auto;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+.twice-greet{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+}
+
+.about-twice{
+    background-color: #5071C2;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20%;
+    flex-wrap: wrap;
+    margin-top: -5px;
+}
+
+.abt-desc{
+    max-width: 550px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.abt-title{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.twice-abt{
+    margin-bottom: 10px;
+}
+
+.twice-awd-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.twice-awards{
+    background-color: #ADC6D9;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.award-nominations{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.awards-asia{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 6%;
+    flex-wrap: wrap;
+}
