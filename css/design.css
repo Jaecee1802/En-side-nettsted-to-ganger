@@ -62,7 +62,7 @@ body{
     margin-bottom: 10px;
 }
 
-.twice-awd-title{
+.twice-awd-title, .twice-sngs-title{
     font-size: 40px;
     text-align: center;
     font-weight: 800;
@@ -86,4 +86,59 @@ body{
     gap: 15%;
     margin-top: 6%;
     flex-wrap: wrap;
+}
+
+.twice-songs{
+    background-color: #5071C2;
+    padding: 10px;
+}
+
+.top-1-streamed{
+    border: 1px solid #FFD700;
+    padding: 50px;
+    background-color: #FFD700;
+    padding-left: 270px;
+    padding-right: 350px;
+    margin-left: -10px;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fancy, .what-is-love, .feel-special{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fancy-you, .wil-cover, .feelspecial{
+    margin-top: -20px;
+}
+
+.top-2-streamed{
+    border: 1px solid #C0C0C0;
+    padding: 50px;
+    background-color: #C0C0C0;
+    padding-left: 70px;
+    padding-right: 220px;
+    margin-left: -10px;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+.what-is-love, .feel-special{
+    margin-top: 60px;
+}
+
+.top-3-streamed{
+    border: 1px solid #CD7F32;
+    padding: 35px;
+    background-color: #CD7F32;
+    padding-left: 200px;
+    padding-right: 195px;
+    margin-left: -10px;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
 }
