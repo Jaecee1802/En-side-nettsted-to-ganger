@@ -91,6 +91,7 @@ body{
 .twice-songs{
     background-color: #5071C2;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 .top-1-streamed{
@@ -141,4 +142,42 @@ body{
     font-weight: 800;
     font-size: 30px;
     text-align: center;
+}
+
+.member-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
+.members{
+    background-color: #ADC6D9;
+    padding-bottom: 40px;
+}
+
+.member-name-and-role{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jih-na-yeon, .misamo, .da-tzu-young{
+    display: flex;
+    justify-content: center;
+    gap: 21%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.jihyo-pic, .nayeon-pic, .jeongyeon-pic, .mina-pic, .sana-pic, .momo-pic, .dahyun-pic, .tzuyu-pic, .chae-pic{
+    border-radius: 60%;
+}
+
+.twice-footer{
+    background-color: #5071C2;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
