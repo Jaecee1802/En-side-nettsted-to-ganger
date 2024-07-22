@@ -165,7 +165,7 @@ body{
 .jih-na-yeon, .misamo, .da-tzu-young{
     display: flex;
     justify-content: center;
-    gap: 21%;
+    gap: 17%;
     margin-top: 5%;
     flex-wrap: wrap;
 }
