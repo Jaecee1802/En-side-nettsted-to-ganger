@@ -11,11 +11,12 @@
     position: fixed;
     width: 100%;
     z-index: 9999;
+    max-width: 100%;
 }
 
 .twice-logo{
-    width: auto;
-    height: auto;
+    max-width: auto;
+    max-height: auto;
 }
 
 body{
@@ -33,6 +34,17 @@ body{
     font-weight: 800;
     font-size: 64px;
     text-align: center;
+}
+
+.twice-cov{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.twice-cover{
+    position: relative;
+    display: inline-block;
 }
 
 .about-twice{
@@ -180,4 +192,200 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.jyp-e-logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.top-3-songs-mobile{display: none;}
+
+
+/* FOR TABLETS */
+@media only screen and (width <= 900px){
+    .twice-head{
+        display: relative;
+        max-height: 5vh;
+    }
+
+    .twice-greet{
+        font-size: 22px;
+    }
+
+    .twice-cov{
+        max-width: auto;
+    }
+
+    .twice-logo{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .twice-cover{
+        margin-top: 50px;
+    }
+
+    .twice-abt{
+        max-width: 95%;
+    }
+
+    .top-3-songs{
+        display: none;
+    }
+
+    .top-3-songs-mobile{
+        display: block;
+    }
+
+    .fanc-mobile{
+        display: flex;
+        justify-content: center;
+        gap: 29dvh;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        background-color: #FFD700;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .top-1, .top-2, .top-3{
+        margin-top: 5%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .wil-mobile{
+        display: flex;
+        justify-content: center;
+        gap: 30dvh;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        background-color: #C0C0C0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .feel-spec-mobile{
+        display: flex;
+        justify-content: center;
+        gap: 30dvh;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        background-color: #CD7F32;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+/* TABLETS AND LAPTOP */
+@media only screen and (width <= 1024px){
+    .twice-cover{
+        margin-top: 75px;
+    }
+
+    .top-1-streamed{
+        border: 1px solid #FFD700;
+        padding: 50px;
+        background-color: #FFD700;
+        padding-left: 100px;
+        padding-right: 50px;
+        margin-left: -10px;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .top-2-streamed{
+        border: 1px solid #C0C0C0;
+        padding: 50px;
+        background-color: #C0C0C0;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: -20px;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .top-3-streamed{
+        border: 1px solid #CD7F32;
+        padding: 35px;
+        background-color: #CD7F32;
+        padding-left: 200px;
+        padding-right: 140px;
+        margin-left: -10px;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .twice-greet{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Inter", sans-serif;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-device-width: 1319px) and (min-device-width: 1025px){
+    .twice-cover{
+        margin-top: 65px;
+    }
+
+    .twice-greet{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "Inter", sans-serif;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .top-1-streamed{
+        border: 1px solid #FFD700;
+        padding: 50px;
+        background-color: #FFD700;
+        padding-left: 100px;
+        padding-right: 50px;
+        margin-left: -10px;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .top-2-streamed{
+        border: 1px solid #C0C0C0;
+        padding: 50px;
+        background-color: #C0C0C0;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: -20px;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .top-3-streamed{
+        border: 1px solid #CD7F32;
+        padding: 35px;
+        background-color: #CD7F32;
+        padding-left: 200px;
+        padding-right: 140px;
+        margin-left: -10px;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+    }
 }
